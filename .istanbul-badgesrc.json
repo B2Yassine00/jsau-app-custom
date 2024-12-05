@@ -1,0 +1,6 @@
+{
+  "reportFileSet": "all",
+  "coverageFile": "./coverage/coverage-final.json",
+  "readmeFile": "./README.md"
+}
+

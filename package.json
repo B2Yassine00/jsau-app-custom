@@ -1,0 +1,41 @@
+{
+  "name": "jsau-webapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint . **/*.js **/*.vue",
+    "stylelint": "stylelint '**/*.css'",
+    "stylelint:fix": "stylelint --fix '**/*.css'",
+    "test": "jest",
+    "test:ci": "jest",
+    "lint:fix": "eslint --fix",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "js-cookie": "3.0.5",
+    "vue": "^3.5.12",
+    "vue-router": "4.5.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "7.25.9",
+    "@babel/preset-env": "7.26.0",
+    "@types/jest": "29.5.14",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/test-utils": "2.4.6",
+    "@vue/vue3-jest": "29.2.6",
+    "babel-jest": "29.7.0",
+    "coveralls": "3.1.1",
+    "eslint": "9.16.0",
+    "istanbul-badges-readme": "1.9.0",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0",
+    "nock": "13.5.6",
+    "stylelint": "16.11.0",
+    "stylelint-config-standard": "36.0.1",
+    "stylelint-order": "6.0.4",
+    "vite": "^5.4.10"
+  }
+}
